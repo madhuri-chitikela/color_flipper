@@ -4,7 +4,7 @@ description: to be written
 
 [View Demo here](https://madhuri-chitikela.github.io/color_flipper/)
 
-![Screenshot](docs/Capture.png)
+![Screenshot](docs/Capture.PNG)
 
 ## Tech stack
 
