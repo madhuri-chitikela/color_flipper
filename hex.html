@@ -13,9 +13,9 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <h4 class="px-2">Color Flipper</h4>
+            <h4 class="px-2 text-white">Color Flipper</h4>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -24,25 +24,28 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Simple</a>
+                        <a class="nav-link" aria-current="page" href="index.html">Simple</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="hex.html">Hex</a>
+                        <a class="nav-link active" href="hex.html">Hex</a>
                     </li>
-
                 </ul>
                 <div class="d-flex">
-                    <a href="https://github.com/madhuri-chitikela/color_flipper">View code on github</a>
+                    <a class="text-white" href="https://github.com/madhuri-chitikela/color_flipper">
+                        <img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png"
+                            alt="github icon" height=40>View Code
+                    </a>
                 </div>
             </div>
         </div>
     </nav>
     <main>
         <div class="container">
-            <h2 class="text-center mt-5">Background color : <span class="color">#f30f29</span>
+            <h2 class="text-center mt-5" style="text-shadow: 1px 1px #777">Background color : <span
+                    class="color">#f30f29</span>
             </h2>
             <div class="text-center mt-5">
-                <button class="btn btn-hero btn-transparent btn-lg" id="btn">Click me</button>
+                <button class="btn btn-hero btn-primary btn-lg" id="btn">Click me</button>
             </div>
         </div>
     </main>
